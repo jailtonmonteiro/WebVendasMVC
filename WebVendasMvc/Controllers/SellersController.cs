@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.VisualStudio.Web.CodeGeneration.Contracts.Messaging;
 using WebVendasMvc.Models;
 using WebVendasMvc.Models.ViewModel;
 using WebVendasMvc.Models.ViewModels;
