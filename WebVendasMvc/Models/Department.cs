@@ -12,7 +12,7 @@ namespace WebVendasMvc.Models
 
         public Department()
         {
-            
+
         }
 
         public Department(int id, string name)
@@ -21,12 +21,12 @@ namespace WebVendasMvc.Models
             Name = name;
         }
 
-        public void AddSeller(Seller seller) 
+        public void AddSeller(Seller seller)
         {
             Sellers.Add(seller);
         }
 
-        public double TotalSeller(DateTime initial, DateTime final)
+        public double TotalSales(DateTime initial, DateTime final)
         {
             return Sellers.Sum(seller => seller.TotalSales(initial, final));
         }
